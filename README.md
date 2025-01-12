@@ -1,5 +1,7 @@
 # AMA - Ask Me Anything!
 
+https://github.com/user-attachments/assets/743c4b28-3dc6-481e-ad8b-b382712b6285
+
 As part of my journey to learn Rust, I set out to build a web server that seamlessly integrates both API and WebSocket functionality. The goal was to dive deep into Rust's async ecosystem while creating something practical and interactive.
 
 This project draws inspiration from a [Figma](<https://www.figma.com/design/Z636c5nyTsBAuDixtz5hvi/AMA---Ask-me-anything-(Community)?node-id=3-809&t=ffji0YwYrGG4rWMN-0>) design created by (Rocketseat)[https://www.rocketseat.com.br/]. Interestingly, I discovered later that they also had a crash course for implementing this in Golang. However, I wanted to make the journey my own by reimagining it in Rust—building everything from the ground up without external guides.
