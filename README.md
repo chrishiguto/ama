@@ -1,6 +1,6 @@
 # AMA - Ask Me Anything!
 
-https://github.com/user-attachments/assets/743c4b28-3dc6-481e-ad8b-b382712b6285
+https://github.com/user-attachments/assets/356dced1-42d7-4bc2-a0a8-a873b0e35f4d
 
 As part of my journey to learn Rust, I set out to build a web server that seamlessly integrates both API and WebSocket functionality. The goal was to dive deep into Rust's async ecosystem while creating something practical and interactive.
 
