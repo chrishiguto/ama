@@ -1,0 +1,37 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+actix-web = "4"
+mime = "0.3.17"
+serde = "1.0.188"
+serde_json = "1.0"
+validator = { version = "0.18.1", features = ["derive"] }
+thiserror = "1.0"
+# Wait for wither to relase a new version.
+# https://github.com/thedodd/wither/pull/89#issuecomment-1023644443
+wither = { git = "https://github.com/thedodd/wither", rev = "52fd503" }
+async-trait = "0.1.82"
+# Investigate if wither::bson can be used instead and activate this feature.
+bson = { version = "2.10.0", features = ["serde_with", "chrono-0_4"] }
+env_logger = "0.9"
+log = "0.4.22"
+futures = "0.3.31"
+actix-ws = "0.3.0"
+futures-util = "0.3.31"
+actix-cors = "0.7.0"
+dotenv = "0.15.0"
+
+[dependencies.mongodb]
+version = "3.0.1"
+
+[dependencies.uuid]
+version = "1.11.0"
+features = [
+    "v4",                # Lets you generate random UUIDs
+    "fast-rng",          # Use a faster (but still sufficiently random) RNG
+    "macro-diagnostics", # Enable better diagnostics for compile-time UUIDs
+]
